@@ -5,14 +5,3 @@ branches:
  only:
   - master
   - develop
-before_script:
- — npm install -g ionic cordova
-script:
- — ionic cordova build browser — prod
-deploy:
- provider: pages
- skip-cleanup: true
- keep-history: true
- on:
-   branch: master
- local_dir: www
