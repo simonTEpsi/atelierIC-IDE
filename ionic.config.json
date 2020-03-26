@@ -1,5 +1,7 @@
 {
-  "name": "atelierIC-IDE",
-  "integrations": {},
+  "name": "TMAProject",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
