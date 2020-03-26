@@ -1,7 +1,4 @@
 language: node_js
 node_js:
-  - '6.12.1'
-npm:
-  - '6.12.1' 
-
+  - '10.9'
   
