@@ -2,5 +2,8 @@ language: node_js
 node_js:
   - '10.9'
 
-addons:
 chrome: stable
+
+notifications:
+
+webhooks: https://outlook.office.com/webhook/b48a3082-d6c9-4d3b-8e25-9edadbfe84bb@b6e77e52-65f6-4dec-b7d9-8e45f36a536f/TravisCI/df1a7389228a42d3a0a9097760c940c1/1e686d29-43b3-4244-9d65-252435c76f46
